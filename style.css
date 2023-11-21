@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    /* Choose a suitable font family */
+}
+
+/* Style the header */
+.weather-header {
+    font-size: 1.5rem;
+}
+
+/* Style the container */
+.container-fluid {
+    margin: 0 auto;
+    /* Center the container */
+}
+
+/* Style the form section */
+.form {
+    margin-top: 10px;
+}
+
+.form-label {
+    font-size: 1.2rem;
+}
+
+.weather-search {
+    width: 80%;
+    /* Adjust the width as needed */
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.search-button {
+    padding: 8px;
+    background-color: #007bff;
+    /* Blue color for the button */
+    color: #fff;
+    /* White text color */
+    border: none;
+    cursor: pointer;
+}
+
+.weather-hr {
+    margin-top: 10px;
+}
+
+/* Style the history section */
+#history {
+    margin-top: 10px;
+}
+
+.list-group {
+    border: 1px solid #ddd;
+    /* Gray border for the list */
+    padding: 10px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+    /* Light gray background on hover */
+}
+
+/* Style the main content section */
+#today {
+    margin-top: 20px;
+}
+
+/* Style the forecast section */
+#forecast {
+    margin-top: 20px;
+}
+
+.forecast-item {
+    border: 1px solid #ddd;
+    /* Gray border for each forecast item */
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.forecast-item img {
+    max-width: 50px;
+    /* Adjust the maximum width of the weather icon */
+    height: auto;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .col-lg-9 {
+        flex: 0 0 100%;
+        /* Set the width to 100% for smaller screens */
+    }
+}
